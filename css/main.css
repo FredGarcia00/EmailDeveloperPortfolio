@@ -1492,10 +1492,16 @@ header .logo {
 #about {
 	background: #FFFFFF;
 	padding-top: 12rem;
-	padding-bottom: 15rem;
+	padding-bottom: 8rem;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
+}
+
+.skills {
+	display:grid !important;
+	grid-template-columns: repeat(5,2fr) !important;
+	justify-content: center;
 }
 
 .intro-info {
@@ -1611,6 +1617,12 @@ header .logo {
 	.intro-info .lead {
 		padding-left: 0;
 		text-align: center;
+	}
+
+	@media only screen and (max-width:400px) {
+		.skills {
+			grid-template-columns: repeat(2,2fr) !important;
+		}
 	}
 }
 
