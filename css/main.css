@@ -1500,7 +1500,7 @@ header .logo {
 
 .skills {
 	display:grid !important;
-	grid-template-columns: repeat(5,2fr) !important;
+	grid-template-columns: repeat(4,2fr) !important;
 	justify-content: center;
 }
 
